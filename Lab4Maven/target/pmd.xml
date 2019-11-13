@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-11-11T09:58:12.254">
+<file name="C:\nu lp\programming_p2\Lab4Maven\src\main\java\ua\lviv\iot\managers\ToolManagerFucntional.java">
+<violation beginline="11" endline="11" begincolumn="12" endcolumn="56" rule="UnnecessaryModifier" ruleset="Code Style" package="ua.lviv.iot.managers" class="ToolManagerFucntional" method="sortToolsByPrice" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'sortToolsByPrice': the method is declared in an interface type
+</violation>
+<violation beginline="13" endline="13" begincolumn="12" endcolumn="50" rule="UnnecessaryModifier" ruleset="Code Style" package="ua.lviv.iot.managers" class="ToolManagerFucntional" method="findByWeight" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'findByWeight': the method is declared in an interface type
+</violation>
+<violation beginline="15" endline="15" begincolumn="13" endcolumn="55" rule="UnnecessaryModifier" ruleset="Code Style" package="ua.lviv.iot.managers" class="ToolManagerFucntional" method="findByMaterial" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'findByMaterial': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\nu lp\programming_p2\Lab4Maven\src\main\java\ua\lviv\iot\models\Tool.java">
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="35" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.models" class="Tool" method="Tool" variable="weight" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'weight'.
+</violation>
+</file>
+</pmd>
